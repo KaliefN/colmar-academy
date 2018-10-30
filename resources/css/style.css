@@ -3,13 +3,14 @@ html {
   font-size: 16px;
   font-family: sans-serif;
 }
+/**************/
 
+/* Header Section */
 header {
   background-color: white;
   height: 4rem;
   display: flex;
   align-items: center;
-  border: black solid 2px;
   justify-content: space-between;
 }
 
@@ -29,7 +30,7 @@ header {
 }
 
 #academy {
-  color: gray;
+  color: #D8D8D8;
   font-weight: 400;
 }
 
@@ -41,3 +42,54 @@ header {
 #last-item {
   margin-right: 24px;
 }
+/****************/
+
+/* Main content 1 */
+.main-content-1 {
+  background-color: #D8D8D8;
+  width: 100%;
+  display: flex;
+}
+
+.main-content-1-image {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.main-content-1-image img {
+  width: 100%;
+}
+
+.main-content-1-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content-1-text span {
+  display: block;
+}
+
+.main-content-1 .title {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.main-content-1 .sub-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.main-content-1 .btn {
+  background-color: #4A4A4A;
+  width: 87%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.main-content-1 .btn a {
+  color: white;
+}
+/*****************/
