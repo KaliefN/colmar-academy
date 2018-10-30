@@ -1,0 +1,18 @@
+/* Univseral styling */
+html {
+  font-size: 16px;
+}
+
+header {
+  background-color: white;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border: black solid 2px;
+  justify-content: space-between;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+}
