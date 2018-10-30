@@ -1,11 +1,12 @@
 /* Univseral styling */
 html {
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 header {
   background-color: white;
-  height: 64px;
+  height: 4rem;
   display: flex;
   align-items: center;
   border: black solid 2px;
@@ -15,4 +16,28 @@ header {
 .icon-title {
   display: flex;
   align-items: center;
+  margin-left: 1.5rem;
+}
+
+.icon-title span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.icon-title img {
+  width: 3rem;
+}
+
+#academy {
+  color: gray;
+  font-weight: 400;
+}
+
+.nav .nav-item {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+#last-item {
+  margin-right: 24px;
 }
