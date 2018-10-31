@@ -93,3 +93,53 @@ header {
   color: white;
 }
 /*****************/
+
+/* Main content 2 */
+.main-content-2 {
+  display: flex;
+  width: 100%;
+}
+
+.main-content-2-image {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.main-content-2-image img {
+  width: 100%;
+}
+
+.main-content-2-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.main-content-2-side .top,
+ .main-content-2-side .middle,
+  .main-content-2-side .bottom {
+  display: flex;
+  width: 100%;
+}
+
+.main-content-2-side .top .image {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+.main-content-2-side .image {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+.main-content-2-side .text {
+  width: 65%;
+}
+
+.top .image img, .middle .image img, .bottom .image img {
+  width: 100%;
+}
