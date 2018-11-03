@@ -133,6 +133,10 @@ header {
   width: 40%;
 }
 
+.main-content-2-side .bottom {
+  background-color: #D8D8D8;
+}
+
 .main-content-2-side .top,
  .main-content-2-side .middle,
   .main-content-2-side .bottom {
@@ -319,5 +323,30 @@ video {
 
 .main-content-4-side .text .content {
   font-size: 1.4rem;
+}
+/*******************/
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  border-top: 2px #D8D8D8 solid;
+}
+
+.copyright-container {
+  margin: 1rem 0 0 1.5rem;
+}
+
+.policies {
+  margin: 1rem 1.5rem 0 0;
+}
+
+.policies span {
+  display: inline;
+}
+
+.policies span:last-child {
+  margin-left: 0.5rem;
 }
 /*******************/
