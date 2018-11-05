@@ -12,6 +12,10 @@ img {
 span {
   display: block;
 }
+
+.mobile {
+  display: none;
+}
 /**************/
 
 /* Header Section */
@@ -52,6 +56,27 @@ header {
 
 #last-item {
   margin-right: 24px;
+}
+
+.icons {
+  display: none;
+}
+
+/* Header mobile styling */
+@media only screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
+
+  .icon-title {
+    display: none;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
 }
 /****************/
 
@@ -94,6 +119,39 @@ header {
 
 .main-content-1 .btn a {
   color: white;
+}
+
+/* Main content 1 mobile styling */
+@media only screen and (max-width: 480px) {
+  .main-content-1 {
+    flex-direction: column;
+  }
+
+  .main-content-1-image {
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-content-1-text {
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .main-content-1-text .title {
+    font-size: 2rem;
+  }
+
+  .main-content-1-text .sub-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .main-content-1-text .title,
+  .main-content-1-text .sub-title,
+  .main-content-1-text .btn {
+    margin-left: 2rem;
+  }
+
 }
 /*****************/
 
@@ -138,17 +196,14 @@ header {
 }
 
 .main-content-2-side .top,
- .main-content-2-side .middle,
-  .main-content-2-side .bottom {
+.main-content-2-side .middle,
+.main-content-2-side .bottom {
   display: flex;
   width: 100%;
   align-items: center;
 }
 
 .main-content-2-side .top .image {
-  width: 35%;
-  height: auto;
-  margin: 1rem;
   margin-top: 0;
 }
 
@@ -187,6 +242,53 @@ header {
 .middle .link a,
 .bottom .link a {
   color: #5F9CE4;
+}
+
+/* Main content 2 mobile styling */
+@media only screen and (max-width: 480px) {
+  .main-content-2 {
+    margin-top: 1rem;
+  }
+
+  .main-content-2-image {
+    display: none;
+  }
+
+  .main-content-2-side {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .main-content-2-side .image {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .main-content-2-side .text {
+    width: 100%;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-content-2-side .bottom .text {
+    margin-bottom: 0;
+  }
+
+  .main-content-2-side .image img {
+    display: none;
+  }
+
+  .main-content-2-side .image .mobile {
+    display: block;
+  }
+
+  .main-content-2-side .top,
+  .main-content-2-side .middle,
+  .main-content-2-side .bottom {
+    flex-direction: column;
+    background-color: white;
+  }
 }
 /***************/
 
@@ -248,6 +350,43 @@ header {
 
 .box-content .courses {
   font-size: 1.5rem;
+}
+
+/* Main content 3 mobile styling */
+@media only screen and (max-width: 480px) {
+  .main-content-3 {
+    background-color: white;
+    padding: 2rem 1.5rem;
+  }
+
+  .box-content .image {
+    display: none;
+  }
+
+  .box-content .text .title,
+  .box-content .text .courses {
+    display: none;
+  }
+
+  .main-content-3 .boxes-top,
+  .main-content-3 .boxes-bottom {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-content-3 .box-content {
+    background-color: #D8D8D8;
+    margin-bottom: 0.5rem;
+  }
+
+  .middle-box {
+    margin: 0;
+  }
+
+  #last-box {
+    margin-bottom: 0;
+  }
 }
 /*****************/
 
@@ -324,6 +463,29 @@ video {
 .main-content-4-side .text .content {
   font-size: 1.4rem;
 }
+
+/* Main content 4 mobile styling */
+@media only screen and (max-width: 480px) {
+  .main-content-4 {
+    padding-bottom: 0;
+  }
+
+  .main-content-4 .heading {
+    margin-bottom: 1rem;
+  }
+
+  .main-content-4 .video-content .title,
+  .main-content-4 .video-content .text-content,
+  .main-content-4-side {
+    display: none;
+  }
+
+  .main-content-4 .video-content {
+    margin: 0;
+    width: 100%;
+    line-height: 0;
+  }
+}
 /*******************/
 
 /* Footer */
@@ -348,5 +510,25 @@ footer {
 
 .policies span:last-child {
   margin-left: 0.5rem;
+}
+
+/* Footer mobile styling */
+@media only screen and (max-width: 480px) {
+  footer {
+    height: 1.5rem;
+    justify-content: center;
+  }
+
+  footer .policies {
+    display: none;
+  }
+
+  footer .copyright-container {
+    margin: 0;
+  }
+
+  .copyright {
+    padding: 1rem 0;
+  }
 }
 /*******************/
